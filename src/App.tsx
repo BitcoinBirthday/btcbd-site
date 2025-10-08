@@ -86,10 +86,10 @@ export default function BitcoinBirthday() {
               <p className="mt-1 text-white/90">Total: <strong>1,000,000,000 BTCBD</strong> </p>
               <h4 className="mt-6 text-base font-semibold">Distribution</h4>
               <ul className="mt-2 space-y-1 text-white/90">
-                <li>• 80% Public / Liquidity</li>
-                <li>• 7% Community Rewards & Giveaways</li>
-                <li>• 8% Treasury & Marketing (multisig)</li>
-                <li>• 5% Dev / Ops (6–12 month vesting)</li>
+                <li>• 90% Public / Liquidity</li>
+                <li>• 3,5% Community Rewards & Giveaways</li>
+                <li>• 4% Treasury & Marketing (multisig)</li>
+                <li>• 2,5% Dev / Ops (6–12 month vesting)</li>
               </ul>
             </div>
             <div className="rounded-2xl border border-gray-700 bg-zinc-900/70 p-6 shadow-sm">
