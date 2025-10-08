@@ -25,8 +25,8 @@ export default function BitcoinBirthday() {
   const seconds = Math.floor((diff / 1000) % 60);
 
   // Links & Assets
-  const contract = "ComingSoon"; // <- ersetzen
-  const pumpUrl = "https://pump.fun/coin/YOUR_TOKEN"; // <- ersetzen
+  const contract = "AvBCspZTURsCFoSW28QFbwwXMY7eh6dzHcpcHYPzpump"; // <- ersetzen
+  const pumpUrl = "https://pump.fun/coin/AvBCspZTURsCFoSW28QFbwwXMY7eh6dzHcpcHYPzpump"; // <- ersetzen
   const twitterUrl = "https://x.com/BTCBirthday_"; // gesetzt
   const telegramUrl = "https://t.me/BTCoinBirthday"; // gesetzt
   const logoUrl = "/btcbd-logo.png"; // /public/assets/btcbd-logo.png
