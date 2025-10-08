@@ -1,5 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Nav from './components/Nav';
 
 // ---- CONFIG ----
 // Lege deine Dateien in /public/assets/ ab:
@@ -150,23 +151,6 @@ export default function BitcoinBirthday() {
 
       <Footer contract={contract} pumpUrl={pumpUrl} twitterUrl={twitterUrl} telegramUrl={telegramUrl} discordUrl={discordUrl} />
     </div>
-  );
-}
-
-function Nav({ logo, twitterUrl, telegramUrl }: { logo: React.ReactNode; twitterUrl: string; telegramUrl: string }) {
-  return (
-    <header className="sticky top-0 z-40 border-b border-gray-700 bg-black/70 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <div className="flex items-center gap-3">
-          <div className="h-9 w-9">{logo}</div>
-          <span className="text-lg font-semibold">Bitcoin Birthday (BIRTH)</span>
-        </div>
-        <nav className="flex items-center gap-2">
-          <a href={twitterUrl} target="_blank" rel="noreferrer" className="rounded-xl border border-gray-700 px-3 py-1.5 text-sm text-white hover:bg-white/10">X / Twitter</a>
-          <a href={telegramUrl} target="_blank" rel="noreferrer" className="rounded-xl border border-gray-700 px-3 py-1.5 text-sm text-white hover:bg-white/10">Telegram</a>
-        </nav>
-      </div>
-    </header>
   );
 }
 
