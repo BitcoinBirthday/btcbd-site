@@ -29,7 +29,6 @@ export default function BitcoinBirthday() {
   const pumpUrl = "https://pump.fun/coin/YOUR_TOKEN"; // <- ersetzen
   const twitterUrl = "https://x.com/BTCBirthday_"; // gesetzt
   const telegramUrl = "https://t.me/BTCoinBirthday"; // gesetzt
-  const discordUrl = "https://discord.gg/YOUR_INVITE"; // optional
   const logoUrl = "/btcbd-logo.png"; // /public/assets/btcbd-logo.png
   const heroBannerUrl = "/btcbd-banner.gif"; // /public/assets/btcbd-banner.gif
 
@@ -269,7 +268,7 @@ function FAQItem({ q, a }: { q: string; a: string }) {
   );
 }
 
-function Footer({ contract, pumpUrl, twitterUrl, telegramUrl, discordUrl }: { contract: string; pumpUrl: string; twitterUrl: string; telegramUrl: string; discordUrl: string }) {
+function Footer({ contract, pumpUrl, twitterUrl, telegramUrl, }: { contract: string; pumpUrl: string; twitterUrl: string; telegramUrl: string; }) {
   return (
     <footer className="mt-8 border-t border-gray-700 bg-black">
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 sm:grid-cols-2 lg:grid-cols-4">
