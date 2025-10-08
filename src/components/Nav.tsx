@@ -17,7 +17,7 @@ export default function Nav({
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <div className="flex items-center gap-3">
           <div className="h-9 w-9">{logo}</div>
-          <span className="text-lg font-semibold">Bitcoin Birthday (BTCBD)</span>
+          <span className="text-lg font-semibold">Bitcoin Birthday (BIRTH)</span>
         </div>
 
         <nav className="flex items-center gap-2">
