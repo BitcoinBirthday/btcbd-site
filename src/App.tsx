@@ -100,7 +100,7 @@ export default function BitcoinBirthday() {
               </p>
               <h4 className="mt-6 text-base font-semibold">Disclaimer</h4>
               <p className="mt-1 text-white/80">
-                BTCBD is a memecoin for celebration and community fun, not financial advice. Participate at your own risk.
+                BIRTH is a memecoin for celebration and community fun, not financial advice. Participate at your own risk.
               </p>
             </div>
           </div>
