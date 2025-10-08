@@ -4,7 +4,7 @@ import Nav from "../components/Nav";
 export default function History() {
   const twitterUrl = "https://x.com/BTCBirthday_";
   const telegramUrl = "https://t.me/BTCoinBirthday";
-  const logoUrl = "/btcbd-logo.png";
+  const logoUrl = "/assets/btcbd-logo.png";
 
   const fadeUp = {
     hidden: { opacity: 0, y: 14 },
