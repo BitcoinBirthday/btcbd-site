@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/history", "destination": "/" },
+    { "source": "/history/(.*)", "destination": "/" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
