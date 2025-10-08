@@ -109,7 +109,7 @@ export default function BitcoinBirthday() {
         <Section id="giveaway" title="Oct 31 Snapshot & BTC Giveaway">
           <ul className="space-y-3 text-white/90">
             <li>• Snapshot: <span className="font-medium">Oct 31 (00:00 UTC)</span> — exact rules announced in advance.</li>
-            <li>• Prize: <span className="font-medium">0.1 BTC</span> split among <span className="font-medium">100 random eligible holders</span>.</li>
+            <li>• Prize: <span className="font-medium">0.1 BTC</span> split among <span className="font-medium">250 random eligible holders</span>.</li>
             <li>• Eligibility: minimum holding threshold (TBA) to avoid spam wallets.</li>
             <li>• Transparency: selection method and all payout TX hashes published.</li>
           </ul>
