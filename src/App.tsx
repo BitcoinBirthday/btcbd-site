@@ -159,7 +159,7 @@ function Nav({ logo, twitterUrl, telegramUrl }: { logo: React.ReactNode; twitter
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <div className="flex items-center gap-3">
           <div className="h-9 w-9">{logo}</div>
-          <span className="text-lg font-semibold">Bitcoin Birthday (BTCBD)</span>
+          <span className="text-lg font-semibold">Bitcoin Birthday (BIRTH)</span>
         </div>
         <nav className="flex items-center gap-2">
           <a href={twitterUrl} target="_blank" rel="noreferrer" className="rounded-xl border border-gray-700 px-3 py-1.5 text-sm text-white hover:bg-white/10">X / Twitter</a>
@@ -315,7 +315,6 @@ function Footer({ contract, pumpUrl, twitterUrl, telegramUrl, discordUrl }: { co
           <ul className="space-y-1 text-sm text-white/90">
             <li><a className="hover:underline" href={twitterUrl} target="_blank" rel="noreferrer">X / Twitter</a></li>
             <li><a className="hover:underline" href={telegramUrl} target="_blank" rel="noreferrer">Telegram</a></li>
-            <li><a className="hover:underline" href={discordUrl} target="_blank" rel="noreferrer">Discord</a></li>
           </ul>
         </div>
       </div>
