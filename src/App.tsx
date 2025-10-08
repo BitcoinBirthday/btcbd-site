@@ -148,7 +148,7 @@ export default function BitcoinBirthday() {
         </Section>
       </main>
 
-      <Footer contract={contract} pumpUrl={pumpUrl} twitterUrl={twitterUrl} telegramUrl={telegramUrl} discordUrl={discordUrl} />
+      <Footer contract={contract} pumpUrl={pumpUrl} twitterUrl={twitterUrl} telegramUrl={telegramUrl} />
     </div>
   );
 }
