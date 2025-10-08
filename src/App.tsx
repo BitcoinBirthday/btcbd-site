@@ -24,7 +24,7 @@ export default function BitcoinBirthday() {
   const seconds = Math.floor((diff / 1000) % 60);
 
   // Links & Assets
-  const contract = "YOUR_CONTRACT_ADDRESS"; // <- ersetzen
+  const contract = "TestAdressHERE"; // <- ersetzen
   const pumpUrl = "https://pump.fun/coin/YOUR_TOKEN"; // <- ersetzen
   const twitterUrl = "https://x.com/BTCBirthday_"; // gesetzt
   const telegramUrl = "https://t.me/BTCoinBirthday"; // gesetzt
