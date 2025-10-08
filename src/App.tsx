@@ -66,7 +66,7 @@ export default function BitcoinBirthday() {
               { h: "Historic Tribute", p: "Honoring the 2008 Bitcoin Whitepaper — the genesis of crypto." },
               { h: "Ticker: BIRTH", p: "Name: Bitcoin Birthday (BTCBD). BIRTH plays on the birth of decentralized money." },
               { h: "Visible Burns", p: "Deflationary policy with on-chain proofs and public TX hashes." },
-              { h: "Oct 31 Snapshot", p: "0.1 BTC split among 100 random eligible holders (rules announced)." },
+              { h: "Oct 31 Snapshot", p: "0.1 BTC split among 250 random eligible holders (rules yet to announe)." },
               { h: "Holder Rewards", p: "Random micro-rewards from a public pool; transparent and documented." },
             ].map((f) => (
               <li key={f.h} className="rounded-2xl border border-gray-700 bg-zinc-900/70 p-5 shadow-sm transition hover:bg-zinc-800">
