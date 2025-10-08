@@ -33,7 +33,7 @@ export default function Nav({
               aria-expanded={open}
               onClick={() => setOpen((v) => !v)} // mobile: tap to toggle
             >
-              Übersicht
+              Overview
               <svg width="14" height="14" viewBox="0 0 24 24" className={`transition ${open ? "rotate-180" : ""}`}>
                 <path fill="currentColor" d="M7 10l5 5 5-5z" />
               </svg>
@@ -49,7 +49,7 @@ export default function Nav({
               >
                 <div className="overflow-hidden rounded-xl border border-gray-700 bg-black/95 shadow-xl">
                   <Link to="/" role="menuitem" className="block px-3 py-2 text-sm hover:bg-white/10">
-                    Startseite
+                    Homepage
                   </Link>
                   <Link to="/history" role="menuitem" className="block px-3 py-2 text-sm hover:bg-white/10">
                     Bitcoin History
